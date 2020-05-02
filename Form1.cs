@@ -16,5 +16,16 @@ namespace GitTest
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Yellow;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Green;
+            MessageBox.Show("Now the button is green :D");
+        }
     }
 }
