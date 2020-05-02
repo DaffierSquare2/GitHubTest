@@ -25,7 +25,7 @@ namespace GitTest
         private void button2_Click(object sender, EventArgs e)
         {
             this.BackColor = Color.Green;
-            MessageBox.Show("Now the button is green :D");
+            MessageBox.Show("Now the application is green :D");
         }
     }
 }
